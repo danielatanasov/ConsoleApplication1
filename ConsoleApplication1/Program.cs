@@ -13,7 +13,7 @@ namespace ArrayTest
             Console.WriteLine("Please enter the dimensions of the array:");
             string sSize = Console.ReadLine();
             int mxSize = 0;
-
+            
             while (!int.TryParse(sSize, out mxSize))
             {
                 Console.WriteLine("Please enter the dimension of the array:");
